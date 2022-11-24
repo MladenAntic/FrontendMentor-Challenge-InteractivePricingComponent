@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Pricing Component</title>
+    <link
+      rel="shortcut icon"
+      href="images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <img
+      src="images/bg-pattern.svg"
+      class="bg-pattern"
+      alt="Background Pattern"
+    />
+    <section class="intro">
+      <h1 class="title">Simple, traffic-based pricing</h1>
+      <p class="description">
+        Sign-up for our 30-day trial. No credit card required.
+      </p>
+      <img
+        src="images/pattern-circles.svg"
+        class="pattern-circles"
+        alt="Pattern Circles"
+      />
+    </section>
+
+    <main id="main-container">
+      <header class="top-section">
+        <div class="pricing">
+          <p class="pageviews">100k pageviews</p>
+          <h2 class="price price-desktop">$<span class="amount">16.00</span> <span class="time">/ month</span></h2>
+        </div>
+
+        <div class="slider">
+          <div class="slider-full"></div>
+          <div class="icon-slider">
+            <img src="images/icon-slider.svg" alt="Icon Slider" />
+          </div>
+          <div class="position-slider">$8</div>
+          <div class="position-slider">$12</div>
+          <div class="position-slider">$16</div>
+          <div class="position-slider">$24</div>
+          <div class="position-slider">$36</div>
+        </div>
+
+        <h2 class="price price-mobile">$<span class="amount">16.00</span> <span class="time">/ month</span></h2>
+
+        <div class="billing-container">
+          <small class="billing monthly-billing">Monthly Billing</small>
+          <div class="toggle-billing">
+            <div class="toggler"></div>
+            <div class="position-toggle position-monthly"></div>
+            <div class="position-toggle position-yearly"></div>
+          </div>
+          <small class="billing yearly-billing">Yearly Billing</small>
+          <span class="discount discount-desktop">25% discount</span>
+          <span class="discount discount-mobile">-25%</span>
+        </div>
+      </header>
+
+      <footer class="bottom-section">
+        <ul class="features">
+          <li class="feature">
+            <img
+              src="images/icon-check.svg"
+              class="icon-check"
+              alt="Icon Check"
+            />
+            Unlimited websites
+          </li>
+          <li class="feature">
+            <img
+              src="images/icon-check.svg"
+              class="icon-check"
+              alt="Icon Check"
+            />
+            100% data ownership
+          </li>
+          <li class="feature">
+            <img
+              src="images/icon-check.svg"
+              class="icon-check"
+              alt="Icon Check"
+            />
+            Email reports
+          </li>
+        </ul>
+
+        <button class="trial">Start my trial</button>
+      </footer>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
